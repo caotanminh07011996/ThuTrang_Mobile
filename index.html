@@ -107,7 +107,12 @@
 <div id="question-box">
   <h2>Ngọc Bích có yêu quý Thu Trang không?</h2>
   <button class="button" onclick="showContent()"><span>❤️</span>Có</button>
-  <button class="button" id="noBtn" onmouseover="moveNoButton()"><span>😢</span>Không</button>
+  <button class="button" id="noBtn"
+  onmouseover="moveNoButton()"
+  ontouchstart="moveNoButton()"
+  onclick="moveNoButton()">
+  <span>😢</span>Không
+  </button>
 </div>
 <div id="content">
   <div class="text-box">
